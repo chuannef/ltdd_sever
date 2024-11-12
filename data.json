@@ -1,0 +1,44 @@
+{
+  "readers": [
+    {
+      "username": "john_doe",
+      "password": "password123",
+      "profileImage": "https://example.com/images/john_doe.jpg",
+      "bio": "Avid reader and book lover.",
+      "createdAt": "2023-01-01T00:00:00Z"
+    },
+    {
+      "username": "jane_smith",
+      "password": "securepass456",
+      "profileImage": "https://example.com/images/jane_smith.jpg",
+      "bio": "Bookworm and aspiring author.",
+      "createdAt": "2023-01-02T00:00:00Z"
+    }
+  ],
+  "books": [
+    {
+      "readerId": "READER_ID_1",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "description": "A novel about the American dream.",
+      "genre": ["Fiction", "Classic"],
+      "pages": 180,
+      "publicationDate": "1925-04-10",
+      "isbn": "9780743273565",
+      "coverImage": "https://example.com/images/great_gatsby.jpg",
+      "createdAt": "2023-01-03T00:00:00Z"
+    },
+    {
+      "readerId": "READER_ID_2",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "description": "A novel about racial injustice in the Deep South.",
+      "genre": ["Fiction", "Classic"],
+      "pages": 281,
+      "publicationDate": "1960-07-11",
+      "isbn": "9780060935467",
+      "coverImage": "https://example.com/images/to_kill_a_mockingbird.jpg",
+      "createdAt": "2023-01-04T00:00:00Z"
+    }
+  ]
+}
